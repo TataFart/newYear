@@ -11,7 +11,6 @@
 <img src="{{ asset('assets/background.jpg') }}" class="bg-no-repeat object-contain blur-sm absolute -z-10 h-screen bg-fixed" />
     < x-header />
     {{ $slot }}
-    < x-footer />
     @livewireScripts
 </body>
 </html>
